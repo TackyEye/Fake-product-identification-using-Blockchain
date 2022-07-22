@@ -3,3 +3,4 @@ Currently in progress:
 - Added front page (index.html)
 - Added registration pages and qr code generating pages
 - Basic front end established
+- Some solidity files added as an example
