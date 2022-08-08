@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"back-end/Smart_Contract.sol": "product_database"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"back-end/Smart_Contract.sol": {
+			"keccak256": "0x1a14fe5ea999cebdf2982f95910c86b5443adf233a1903539aa4d6a4572bd069",
+			"urls": [
+				"bzz-raw://682f23ba369238cbc1da178bc8e1b6a3cdc5641ecf83a500b3674751cd60d31a",
+				"dweb:/ipfs/QmRrqYc2YpmxP2UkH1vSF5JbtqUfK7h8vnmnRyJEJ5ahRn"
+			]
+		}
+	},
+	"version": 1
+}
