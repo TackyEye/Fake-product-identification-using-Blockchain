@@ -15,7 +15,7 @@ contract product_database
     function setProduct() public {
       product_array[0] = product_info('Chess Board', 123, 'Chess company', 456);
    }
-   function getProduct() public view returns (product_info) {
-      return memory product_array[0];
+   function getProduct() public view returns (product_info memory) {
+      return product_array[0];
    }  
 }
