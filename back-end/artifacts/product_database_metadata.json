@@ -33,10 +33,11 @@
 	},
 	"sources": {
 		"back-end/Smart_Contract.sol": {
-			"keccak256": "0x1a14fe5ea999cebdf2982f95910c86b5443adf233a1903539aa4d6a4572bd069",
+			"keccak256": "0x48866323373efd32c8b02ff27375392282d029d0fa5988e67a60d252e9469408",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://682f23ba369238cbc1da178bc8e1b6a3cdc5641ecf83a500b3674751cd60d31a",
-				"dweb:/ipfs/QmRrqYc2YpmxP2UkH1vSF5JbtqUfK7h8vnmnRyJEJ5ahRn"
+				"bzz-raw://7ba95369ae8f85693a82ff0af3de36f5dbe46853567c2eaeb489da9897248c5c",
+				"dweb:/ipfs/QmdpdAWyRSE9yaMHUkq7Z2dm7hTZPrGu2hVqvc8h2hunWo"
 			]
 		}
 	},
