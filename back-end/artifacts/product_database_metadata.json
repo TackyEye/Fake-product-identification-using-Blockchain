@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getProduct",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "product_name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "product_id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "manufacturer_name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "manufacturer_id",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct product_database.product_info",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"back-end/Smart_Contract.sol": "product_database"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"back-end/Smart_Contract.sol": {
+			"keccak256": "0x1be09ebb8a71c1f367e9832d975ec4277495e06dac2e2cf864fdb692f77c547d",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a5e143dd2b33a1d4baa6dc859452558da2a136301bb4c9eae000a1b82ee3b996",
+				"dweb:/ipfs/QmYqmEWhKBRDCwQZgiQTpbWwfJvXDqVrDnUFFZFeGPMBdL"
+			]
+		}
+	},
+	"version": 1
+}
