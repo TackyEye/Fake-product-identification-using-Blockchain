@@ -11,9 +11,10 @@ contract product_database
         string manufacturer_name;
         uint manufacturer_id;
     }
+    product_info product;
     product_info[] product_array;
-    function setProduct() public {
-      product_array[0] = product_info('Chess Board', 123, 'Chess company', 456);
+    function setProduct(product_info memory _product) public {
+      product = _product;
    }
    function getProduct() public view returns (product_info memory) {
       return product_array[0];
